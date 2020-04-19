@@ -22,7 +22,7 @@ class PopoverViewController: NSViewController {
     
     private var timer: Timer?
         // 定时器记数: 每20分钟执行一次，3轮为1小时
-        private var timeCount = 3
+        private var timeCount = 6
         
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -64,7 +64,7 @@ class PopoverViewController: NSViewController {
         func loop() {
             print("\(Date()): 定时器初始化")
             // timeInterval: 隔多少秒执行一次
-            timer = Timer(timeInterval: 1200, repeats: true, block: { timer in
+            timer = Timer(timeInterval: 600, repeats: true, block: { timer in
                 self.loopFireHandler(timer)
             })
             // 添加定时器
@@ -75,7 +75,7 @@ class PopoverViewController: NSViewController {
             // 定时器执行结束结束
             if self.timeCount <= 0 {
                 print("\(Date()): 执行完1轮，开始下一轮")
-                self.timeCount = 3
+                self.timeCount = 6
                 return
             }
             // 获取并设置页面数据
