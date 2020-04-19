@@ -1,0 +1,10 @@
+{
+  "commitish" : "4.3.0",
+  "Mac" : [
+    {
+      "name" : "SwiftyJSON",
+      "hash" : "b38f9411a0663d52bbb63822bbdaf1b68d213ad3b31093fd2984462c1e9d3e6a",
+      "swiftToolchainVersion" : "5.2 (swiftlang-1103.0.32.1 clang-1103.0.32.29)"
+    }
+  ]
+}

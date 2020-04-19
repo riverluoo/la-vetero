@@ -32,5 +32,9 @@
 	<true/>
 	<key>NSSupportsSuddenTermination</key>
 	<true/>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSUIElement</key>
+	<true/>
 </dict>
 </plist>
