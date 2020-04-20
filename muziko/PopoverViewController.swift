@@ -35,7 +35,7 @@ class PopoverViewController: NSViewController {
         // 获取并设置数据
         func setPageData(){
             // 发起post请求
-            AF.request("https://free-api.heweather.net/s6/weather/forecast?location=jiaxing&key=15aab63b5ef44ecf95659ca16b4b0d3f",
+            AF.request("https://api.caiyunapp.com/v2/TAkhjf8d1nlSlspN/121.6544,25.1552/forecast.json",
                        method: .get,encoding: JSONEncoding.default).responseJSON { (response) in
                         print("\(response)")
                         

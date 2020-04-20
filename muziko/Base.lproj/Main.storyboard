@@ -699,11 +699,11 @@
             <objects>
                 <viewController storyboardIdentifier="PopoverViewController" id="1Cw-7B-14d" customClass="PopoverViewController" customModule="muziko" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="EFO-Ps-l6q">
-                        <rect key="frame" x="0.0" y="0.0" width="233" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="527" height="224"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sUA-Xi-PAw">
-                                <rect key="frame" x="84" y="257" width="37" height="16"/>
+                                <rect key="frame" x="84" y="181" width="37" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="o42-fq-sN7">
                                     <font key="font" usesAppearanceFont="YES"/>
@@ -712,7 +712,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qCK-uV-vX8">
-                                <rect key="frame" x="86" y="212" width="37" height="16"/>
+                                <rect key="frame" x="86" y="136" width="37" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="2oe-pv-fg3">
                                     <font key="font" metaFont="system"/>
@@ -721,7 +721,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ylS-fM-UGl">
-                                <rect key="frame" x="130" y="162" width="37" height="16"/>
+                                <rect key="frame" x="130" y="86" width="37" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="P4b-2D-ah3">
                                     <font key="font" metaFont="system"/>
@@ -730,7 +730,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P8x-SW-2Jq">
-                                <rect key="frame" x="84" y="160" width="37" height="16"/>
+                                <rect key="frame" x="84" y="84" width="37" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Label" id="84y-5s-vDb">
                                     <font key="font" metaFont="system"/>
@@ -739,7 +739,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bjp-eq-TKv">
-                                <rect key="frame" x="34" y="150" width="46" height="26"/>
+                                <rect key="frame" x="34" y="74" width="46" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="温度：" id="jei-Gk-ABB">
                                     <font key="font" usesAppearanceFont="YES"/>
@@ -758,7 +758,7 @@
                 </viewController>
                 <customObject id="XFd-SV-vJk" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-29.5" y="227"/>
+            <point key="canvasLocation" x="117.5" y="189"/>
         </scene>
     </scenes>
 </document>
